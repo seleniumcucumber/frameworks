@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [groupexample]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="smokeTest(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.supermarket.tests.LoginTest">
+        <methods>
+          <include name="setUp_IndvidualRun"/>
+          <include name="verifyLogin"/>
+          <include name="verifyUserLogin" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.supermarket.tests.LoginTest -->
+    </classes>
+  </test> <!-- smokeTest(failed) -->
+</suite> <!-- Failed suite [groupexample] -->

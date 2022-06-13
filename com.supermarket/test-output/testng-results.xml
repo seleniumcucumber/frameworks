@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-12T13:52:32Z" name="groupexample" finished-at="2022-06-12T13:52:39Z" duration-ms="7425">
+    <groups>
+      <group name="testgroup">
+        <method signature="ManageUsersTest.manageUsersDelete()[pri:0, instance:com.supermarket.tests.ManageUsersTest@48e1f6c7]" name="manageUsersDelete" class="com.supermarket.tests.ManageUsersTest"/>
+      </group> <!-- testgroup -->
+    </groups>
+    <test started-at="2022-06-12T13:52:32Z" name="smokeTest" finished-at="2022-06-12T13:52:39Z" duration-ms="7425">
+      <class name="com.supermarket.tests.ManageUsersTest">
+        <test-method is-config="true" signature="setUp_IndvidualRun()[pri:0, instance:com.supermarket.tests.ManageUsersTest@48e1f6c7]" started-at="2022-06-12T13:52:32Z" name="setUp_IndvidualRun" finished-at="2022-06-12T13:52:35Z" duration-ms="2878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp_IndvidualRun -->
+        <test-method signature="manageUsersDelete()[pri:0, instance:com.supermarket.tests.ManageUsersTest@48e1f6c7]" started-at="2022-06-12T13:52:35Z" name="manageUsersDelete" finished-at="2022-06-12T13:52:39Z" duration-ms="4526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manageUsersDelete -->
+      </class> <!-- com.supermarket.tests.ManageUsersTest -->
+    </test> <!-- smokeTest -->
+  </suite> <!-- groupexample -->
+</testng-results>

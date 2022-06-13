@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="sampleDemo">
+	<listeners>
+		<listener class-name="com.supermarket.listeners.ExtentReporter"></listener>
+	</listeners>
+	<test name="demoFirst">
+		<classes>
+			<class name="com.supermarket.tests.LoginTest"></class>
+		</classes>
+	</test>
+
+
+</suite>

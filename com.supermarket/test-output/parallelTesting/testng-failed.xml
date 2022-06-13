@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [parallelTesting]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.supermarket.listeners.ExtentReporter"/>
+  </listeners>
+  <test thread-count="3" parallel="tests" name="TestB(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.supermarket.tests.AdminUsersTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="amal"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.supermarket.tests.AdminUsersTest -->
+    </classes>
+  </test> <!-- TestB(failed) -->
+</suite> <!-- Failed suite [parallelTesting] -->
