@@ -24,6 +24,9 @@ public class Base {
 	ScreenShot screenshot;
 	
 	
+	
+	
+	
 	public void initialise(String browser,String url)
 	{
 		if (browser.equals("chrome")) {
