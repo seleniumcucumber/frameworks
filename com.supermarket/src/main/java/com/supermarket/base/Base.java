@@ -22,11 +22,6 @@ public class Base {
 	public WebDriver driver;
 	PropHandler prophandler;
 	ScreenShot screenshot;
-	
-	
-	
-	
-	
 	public void initialise(String browser,String url)
 	{
 		if (browser.equals("chrome")) {
